@@ -1,0 +1,11 @@
+[
+  {
+    "WETH9Module#WETH9": "0x6fD04baCF762C60CDBd34346d242312d82299859"
+  },
+  {
+    "V3CoreModule#UniswapV3Factory": "0x51cf9277777b1d5342691326eFc5136B9e9CdF21"
+  },
+  {
+    "QuoterModule#Quoter": "0x0A8420FDd7f20466C0A0da4454194e627f310995"
+  }
+]

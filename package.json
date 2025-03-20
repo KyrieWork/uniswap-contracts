@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "compile": "yarn workspaces run compile",
+    "clean": "yarn workspaces run clean",
     "test": "yarn workspaces run test"
   },
   "devDependencies": {
