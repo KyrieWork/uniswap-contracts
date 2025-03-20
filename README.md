@@ -15,6 +15,7 @@ yarn workspace weth deploy --network testnet
 yarn workspace @uniswap/v3-core deploy --network testnet
 yarn workspace @uniswap/v3-periphery deploy --network testnet
 yarn workspace tether-token deploy --network testnet
+yarn workspace multicall2 deploy --network testnet
 ```
 
 导出所有地址到 json 文件: `all_deploy_contracts.json`

@@ -5,12 +5,6 @@ export default buildModule("PeripheryModule", (m) => {
   const factory = m.getParameter("UniswapV3Factory");
   const weth = m.getParameter("WETH9");
 
-  // Multicall2
-  const Multicall2 = m.contract("UniswapInterfaceMulticall", [], {
-    id: "Multicall2",
-    after: [],
-  });
-
   // TickLens
   const TickLens = m.contract("TickLens", [], {
     id: "TickLens",
@@ -61,7 +55,6 @@ export default buildModule("PeripheryModule", (m) => {
   });
 
   return {
-    Multicall2,
     TickLens,
     Quoter,
     SwapRouter,

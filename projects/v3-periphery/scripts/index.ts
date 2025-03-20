@@ -8,7 +8,6 @@ async function main() {
 
   const parameters = require(`../../../parameters/${network}.json`);
   const {
-    Multicall2,
     TickLens,
     Quoter,
     SwapRouter,
@@ -19,7 +18,6 @@ async function main() {
   } = await hre.ignition.deploy(Module, {
     parameters: parameters,
   });
-  const address_Multicall2 = await Multicall2.getAddress();
   const address_TickLens = await TickLens.getAddress();
   const address_Quoter = await Quoter.getAddress();
   const address_SwapRouter = await SwapRouter.getAddress();
@@ -28,7 +26,6 @@ async function main() {
   const address_NonfungiblePositionManager = await NonfungiblePositionManager.getAddress();
   const address_V3Migrator = await V3Migrator.getAddress();
 
-  console.log(`Multicall2 deployed to: ${address_Multicall2}`);
   console.log(`TickLens deployed to: ${address_TickLens}`);
   console.log(`Quoter deployed to: ${address_Quoter}`);
   console.log(`SwapRouter deployed to: ${address_SwapRouter}`);
@@ -39,7 +36,6 @@ async function main() {
 
   //verify
   if (network !== "hardhat") {
-    await verifyContract(address_Multicall2, []);
     await verifyContract(address_TickLens, []);
     await verifyContract(address_Quoter, [
       parameters.PeripheryModule.UniswapV3Factory,

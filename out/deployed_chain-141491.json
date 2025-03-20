@@ -6,7 +6,6 @@
     "V3CoreModule#UniswapV3Factory": "0x51cf9277777b1d5342691326eFc5136B9e9CdF21"
   },
   {
-    "PeripheryModule#Multicall2": "0x5bB57bD01fFE994220f6e0EFb6BAaa53Dd187C5E",
     "PeripheryModule#NFTDescriptor": "0xa5c1048Ab6DB91288fa1952B6627fdbe7A518CaA",
     "PeripheryModule#Quoter": "0xe6D194B508903C76936e3564aF9919d02dddE595",
     "PeripheryModule#SwapRouter": "0x1d3608106B3863B3d1d9384BBD4995A53b41a4b0",
@@ -17,5 +16,8 @@
   },
   {
     "USDTModule#TetherToken": "0x438f73Ac8Fea17AfF5154Ce9ce5A6E3a92960D80"
+  },
+  {
+    "Multicall2Module#Multicall2": "0x933967F96203D0964eCb964D6D86d7e20979e61f"
   }
 ]
