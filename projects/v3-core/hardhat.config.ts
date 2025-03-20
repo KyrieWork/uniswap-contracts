@@ -1,4 +1,4 @@
-import { HardhatUserConfig } from "hardhat/config";
+import { HardhatUserConfig, task } from "hardhat/config";
 import "@nomicfoundation/hardhat-ignition-ethers";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-ethers";
@@ -7,6 +7,23 @@ import "hardhat-contract-sizer";
 import "solidity-coverage";
 import "dotenv/config";
 import { Chains, Chains_API_Keys, Chains_Custom_List } from "../../chains";
+
+task("verify", "Verify a contract on Etherscan", async (taskArgs: { address: string; args?: string[] }, hre) => {
+  const { address } = taskArgs;
+  try {
+    await hre.run("verify:verify", {
+      address: address,
+      constructorArguments: taskArgs.args || [],
+    });
+    console.log("Contract verified successfully");
+  } catch (e: any) {
+    if (e.message.toLowerCase().includes("already verified")) {
+      console.log("Already verified!");
+    } else {
+      console.log(e);
+    }
+  }
+});
 
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",

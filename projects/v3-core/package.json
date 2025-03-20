@@ -6,7 +6,8 @@
     "compile": "hardhat compile",
     "test": "hardhat test",
     "deploy": "hardhat ignition deploy ignition/modules/deploy.ts --verify",
-    "clean": "hardhat clean && rm -rf ./node_modules ./data"
+    "clean": "hardhat clean && rm -rf ./node_modules ./data",
+    "verify": "hardhat verify"
   },
   "files": [
     "./contracts/",
