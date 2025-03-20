@@ -1,5 +1,5 @@
 {
-  "name": "uniswap-deploy",
+  "name": "uniswap-contracts",
   "private": true,
   "workspaces": [
     "projects/*"
