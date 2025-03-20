@@ -1,6 +1,10 @@
-# Pancake Contracts Deploy
+# Uniswap Contracts Deploy
 
 ## Deploy CMD
+
+```shell
+yarn && yarn compile
+```
 
 - 部署前配置`.env`;
 - 根据顺序部署脚本，但执行前请检查配置:`/parameters/{network}.json`或者`/projects/{project}/ignition/parameters.json`;
