@@ -1,4 +1,4 @@
-# chmod +x merge_json_dirs.sh
+# chmod +x output_addresses.sh
 #!/bin/bash
 
 # 定义链 ID

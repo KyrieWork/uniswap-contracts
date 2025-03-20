@@ -20,7 +20,7 @@ yarn workspace tether-token deploy --network testnet
 导出所有地址到 json 文件: `all_deploy_contracts.json`
 
 ```shell
-chmod +x merge_json_dirs.sh
+chmod +x output_addresses.sh
 
-./merge_json_dirs.sh
+./output_addresses.sh
 ```
