@@ -10,7 +10,7 @@ JSON_FILE_PATH_END="ignition/deployments/chain-$CHAIN_ID/deployed_addresses.json
 JSON_FILES=(
     "$JSON_FILE_PATH_START/weth/$JSON_FILE_PATH_END"
     "$JSON_FILE_PATH_START/v3-core/$JSON_FILE_PATH_END"
-    "$JSON_FILE_PATH_START/quoter/$JSON_FILE_PATH_END"
+    "$JSON_FILE_PATH_START/v3-periphery/$JSON_FILE_PATH_END"
 )
 
 # 定义输出文件路径

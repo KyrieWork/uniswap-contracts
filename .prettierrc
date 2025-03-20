@@ -1,0 +1,13 @@
+{
+  "printWidth": 100,
+  "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "printWidth": 120,
+        "singleLineCondition": false,
+        "bracketSameLine": true
+      }
+    }
+  ]
+}

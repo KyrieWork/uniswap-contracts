@@ -6,6 +6,13 @@
     "V3CoreModule#UniswapV3Factory": "0x51cf9277777b1d5342691326eFc5136B9e9CdF21"
   },
   {
-    "QuoterModule#Quoter": "0x0A8420FDd7f20466C0A0da4454194e627f310995"
+    "PeripheryModule#Multicall2": "0x5bB57bD01fFE994220f6e0EFb6BAaa53Dd187C5E",
+    "PeripheryModule#NFTDescriptor": "0xa5c1048Ab6DB91288fa1952B6627fdbe7A518CaA",
+    "PeripheryModule#Quoter": "0xe6D194B508903C76936e3564aF9919d02dddE595",
+    "PeripheryModule#SwapRouter": "0x1d3608106B3863B3d1d9384BBD4995A53b41a4b0",
+    "PeripheryModule#TickLens": "0x71c53153c1454c2FA5d16390Ae05ae643FaAF8B3",
+    "PeripheryModule#NonfungibleTokenPositionDescriptor": "0x32D6Aa127a33343093A658A3e9978bd44836e035",
+    "PeripheryModule#NonfungiblePositionManager": "0x41148c8ec7732d26994c6eaCD6a9f5A0F7430Fe9",
+    "PeripheryModule#V3Migrator": "0x4713173b643d7b26C1d20EA94B0526C6bF1c7C66"
   }
 ]
