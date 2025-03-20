@@ -11,10 +11,11 @@ JSON_FILES=(
     "$JSON_FILE_PATH_START/weth/$JSON_FILE_PATH_END"
     "$JSON_FILE_PATH_START/v3-core/$JSON_FILE_PATH_END"
     "$JSON_FILE_PATH_START/v3-periphery/$JSON_FILE_PATH_END"
+    "$JSON_FILE_PATH_START/tether-token/$JSON_FILE_PATH_END"
 )
 
 # 定义输出文件路径
-OUTPUT_FILE=./all_deploy_contracts.json
+OUTPUT_FILE=./out/deployed_chain-$CHAIN_ID.json
 
 echo "删除旧文件"
 rm -rf $OUTPUT_FILE

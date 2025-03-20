@@ -1,0 +1,8 @@
+{
+  "USDTModule": {
+    "initialSupply": "100000000000",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": "6"
+  }
+}

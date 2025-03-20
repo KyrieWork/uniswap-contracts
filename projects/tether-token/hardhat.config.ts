@@ -17,11 +17,11 @@ const config: HardhatUserConfig = {
     ...Chains,
   },
   solidity: {
-    version: "0.4.19",
+    version: "0.4.18",
     settings: {
       optimizer: {
-        enabled: true,
-        runs: 200,
+        enabled: false,
+        runs: 0,
       },
     },
   },

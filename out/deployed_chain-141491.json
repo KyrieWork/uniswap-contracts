@@ -14,5 +14,8 @@
     "PeripheryModule#NonfungibleTokenPositionDescriptor": "0x32D6Aa127a33343093A658A3e9978bd44836e035",
     "PeripheryModule#NonfungiblePositionManager": "0x41148c8ec7732d26994c6eaCD6a9f5A0F7430Fe9",
     "PeripheryModule#V3Migrator": "0x4713173b643d7b26C1d20EA94B0526C6bF1c7C66"
+  },
+  {
+    "USDTModule#TetherToken": "0x438f73Ac8Fea17AfF5154Ce9ce5A6E3a92960D80"
   }
 ]
